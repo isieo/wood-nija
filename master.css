@@ -1,0 +1,56 @@
+body {
+  background-color:#000;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+}
+
+div.container{
+  width: 100%;
+  height: 100%;
+  position:relative
+}
+
+div.content{
+  padding-top: 200px;
+  width: 100%;
+  height: 100%;
+  text-align:center;
+}
+
+
+article,aside{
+  display: inline-block;
+  position: relative;
+}
+
+article{
+  width:60%;
+}
+
+
+aside{
+  width:40%;
+}
+
+
+article> p,
+article> h1,
+form{
+  margin: 18px;
+  padding: 5px;
+}
+
+article> h1{
+  padding-top:1em;
+  font-size: 3em;
+}
+
+
+div.logo{
+  margin: 25px;
+}
+
+
+label{
+  display:block;
+}
